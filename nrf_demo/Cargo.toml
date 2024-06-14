@@ -11,7 +11,7 @@ rust-version = "1.65"
 
 [dependencies]
 cortex-m = { version = "0.7.6", features = ["critical-section-single-core"] }
-cortex-m-rt = { version = "0.7.1" }
+cortex-m-rt = { version = "0.7.3" }
 nrf52840-hal = { version = "0.16.0", default-features = false }
 panic-halt = "0.2.0"
 embedded-hal = "0.2"
